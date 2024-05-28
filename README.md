@@ -1,1 +1,1 @@
-# Ascrion-Rock_Paper_Scrissors-English-JS
+A basic Rock Paper Scissors Game created using JS
