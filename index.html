@@ -15,6 +15,7 @@
             <li>Computer will randomly choose Rock, Paper, or Scissors.</li>
             <li>You need to choose any of the three options listed below.</li>
             <li>There will be 5 rounds after which the winner will be decided.</li>
+            <li>Choose any option to begin.</li>
         </ul>
     </div>
 
@@ -22,15 +23,15 @@
     <div class="Input">
         <div class="Btn">
             <img src="MEDIA/rock.png" alt="Rock">
-            <button>Rock</button>
+            <button id="rock_btn">Rock</button>
         </div>
         <div class="Btn">
             <img src="MEDIA/paper.jpg" alt="Paper">
-            <button>Paper</button>
+            <button id="paper_btn">Paper</button>
         </div>
         <div class="Btn">
             <img src="MEDIA/scissors.jpeg" alt="Scissors">
-            <button>Scissors</button>
+            <button id="scissors_btn">Scissors</button>
         </div>
     </div>
 
@@ -38,22 +39,23 @@
     <div class="Scores">
         <div class="score">
             <h3>Your Score</h3>
-            <h2>0</h2>
+            <h2 id="user_score">0</h2>
         </div>
         <div class="score">
             <h3>Computer Score</h3>
-            <h2>0</h2>
+            <h2 id="computer_score">0</h2>
         </div>
         <div class="score">
             <h3>Round No.</h3>
-            <h2>0</h2>
+            <h2 id="round_no">0</h2>
         </div>
     </div>
 
     <!-- Result -->
     <div class="Result">
-        <h1>Result:</h1>
-        <button>Replay The Game</button>
+        <h1 id="final_result">Result:</h1>
+        <button id="replay_btn">Replay The Game</button>
     </div>
+    <script src = "index.js"></script>
 </body>
 </html>
